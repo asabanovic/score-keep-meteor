@@ -1,0 +1,32 @@
+
+$green: #e4ede0;
+$green-alt: darken($green, 15%);
+
+$blue: #dfe7ed;
+$blue-alt: darken($blue, 15%);
+
+$red: #eddfdf;
+$red-alt: darken($red, 15%);
+
+.item {
+	margin: 0 auto;
+	background-color: white;
+	padding: 1.4rem;
+	margin-bottom: 1rem;
+	border: 1px solid #e8e8e8;
+}
+
+.item__position-1 {
+	background-color: $green;
+	border-color: $green-alt;
+}
+
+.item__position-2 {
+	background-color: $red;
+	border-color: $red-alt;
+}
+
+.item__position-3 {
+	background-color: $blue;
+	border-color: $blue-alt;
+}
